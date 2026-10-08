@@ -1,5 +1,6 @@
 # Decisions Log
 
-## 2026-10-08 — Moved serials to a private file after realizing best practices 
-
-I am just going to accept that the serial numbers are leaked because at this point in time they arent very dangerous, if this were a more sensitve or highly viewed rep then it would shift to a bigger concern. 
+## 2026-10-08
+- I decided to keep MAC addresses out of the committed repo I dded a `*-private.md` pattern to `.gitignore` and created `network/mac-addresses-private.md` because MACs are useful to have on hand for my project but could carry some fingerprinting/spoofing value if the repo ever went public. No MACs had been committed yet so this fully prevents exposure.
+- I decided to privatize serial numbers too, even though they'd already been committed and pushed, The already pushed serials remain visible in past commits (known). Accepting that as low risk for now rather than rewriting history to scrub it. I would reconsider if this ever became a more sensitive or a more viewed repo.
+- Added `.gitattributes` (`* text=auto eol=lf`) I did this once I learned windows uses LF (line feed) \n which is one byte and CRLF on mac/linux is \r\n which is two bytes. Im pretty sure that this is only important for scripts and other interpreter level code but I want to be aware that it exists for when I go deeper into that. 
