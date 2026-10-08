@@ -32,9 +32,14 @@ DHCP: Laptops, thin client
 
 | Port | Connected to | Notes |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | | PoE |
+| 2 | | PoE |
+| 3 | | PoE |
+| 4 | | PoE |
+| 5 | | |
+| 6 | | |
+| 7 | PC | Temporary — testing |
+| 8 | eero | Uplink |
 
 ## Future: VLAN plan (phase 2/3)
 
