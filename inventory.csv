@@ -1,0 +1,11 @@
+asset_tag,name,type,manufacturer,model,serial_number,source,date_acquired,cost,status,location,assigned_role,ip_address,notes
+HL-0001,Core switch,Switch,TP-Link,TL-SG1024DE,2172060000380,Bara,2026-10-04,0,Not yet deployed,Living room rack,Core switch,,24-port managed; VLAN capable
+HL-0002,PoE switch,Switch,TP-Link,TL-SG108PE,2176657002838,Bara,2026-10-04,0,Not yet deployed,Behind bookshelf,PoE switch for AP,,4x PoE ports; powers U7 Lite
+HL-0003,Wi-Fi AP,Access Point,Ubiquiti,U7 Lite,847848A67554,Bara,2026-10-06,0,Not yet deployed,On top of bookshelf,Wireless AP,,Adopted into self-hosted UniFi controller
+HL-0004,Offensive laptop,Laptop,Lenovo,ThinkPad (T480s),PC0YQFQQ,Personal,,0,Not yet deployed,Lab desk,Kali / offensive box,,Lab VLAN only; never bridged to trusted network
+HL-0005,Proxmox host candidate,Laptop,HP,Pavilion x360,8CGB2780KB,Personal,,0,Not yet deployed,Lab desk,Proxmox host (planned),,i5 8th gen; confirm OS install / CMOS battery
+HL-0006,Secondary node,Laptop,Dell,Inspiron 3501,4S8T7F3,Personal,,0,Not yet deployed,Lab desk,Secondary Proxmox node (planned),,i3-1115G4; 2C/4T
+HL-0007,Thin client,Laptop,Lenovo,IdeaPad 3 Chromebook 15IJL6,YX0GEAVN,Personal,,0,Not yet deployed,Mobile,Thin client / dashboard display,,ChromeOS; not used for hosting
+HL-0008,Home PC,Desktop,Custom Build,Custom Build,,Personal,,0,In service,Living room,Daily driver,,Custom build; RTX 2080 Super
+HL-0009,Home router,Router,eero,Pro 7,GGC3-510C-5452-016T,ISP,,0,In service,Behind bookshelf,Internet gateway / Wi-Fi (trusted),192.168.4.1,Only 1 usable LAN port
+HL-0010,ONT,ONT,Frontier,FRX523V2,FTRO58436813,ISP,,0,In service,Bedroom closet,Fiber termination,,Battery backup unit mounted above
