@@ -8,6 +8,7 @@ secrets.yaml
 *.key
 id_rsa
 id_rsa.pub
+*-private.md
 
 # Editor/OS cruft
 .vscode/
