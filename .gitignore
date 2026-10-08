@@ -1,0 +1,15 @@
+# Secrets — never commit these
+*vault.yml
+*vault.yaml
+.env
+secrets.yml
+secrets.yaml
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Editor/OS cruft
+.vscode/
+.DS_Store
+Thumbs.db
