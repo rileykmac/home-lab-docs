@@ -14,9 +14,9 @@ DHCP: Laptops, thin client
 
 | asset_tag | name | ip_address | static/DHCP |
 |---|---|---|---|
-| HL-0001 | Core switch | 192.168.4.2| |
-| HL-0002 | PoE switch | | |
-| HL-0003 | Wi-Fi AP | | |
+| HL-0001 | Core switch | 192.168.4.2 | Static* |
+| HL-0002 | PoE switch | 192.168.4.3 | Static* |
+| HL-0003 | Wi-Fi AP | | | 
 
 ## Switch port assignments
 
