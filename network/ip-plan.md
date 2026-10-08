@@ -14,9 +14,27 @@ DHCP: Laptops, thin client
 
 | asset_tag | name | ip_address | static/DHCP |
 |---|---|---|---|
-| HL-0001 | Core switch | | |
+| HL-0001 | Core switch | 192.168.4.2| |
 | HL-0002 | PoE switch | | |
 | HL-0003 | Wi-Fi AP | | |
+
+## Switch port assignments
+
+### Core switch (HL-0001)
+
+| Port | Connected to | Notes |
+|---|---|---|
+| 1 | | |
+| 2 | | |
+| 3 | | |
+
+### PoE switch (HL-0002)
+
+| Port | Connected to | Notes |
+|---|---|---|
+| 1 | | |
+| 2 | | |
+| 3 | | |
 
 ## Future: VLAN plan (phase 2/3)
 
