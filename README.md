@@ -20,4 +20,4 @@ Phase 0: planning implementation and doing inventory logging.
 Phase 0: Get all devices and equipment logged and plan out next steps
 Phase 1: Have all devices configured and running on one flat network for any additional setup that is needed 
 Phase 2: Have a switch level vlan for the network
-Phase 3: Have a router/firewall for enforcment on the lab vlans
+Phase 3: Have a router/firewall for enforcement on the lab vlans
