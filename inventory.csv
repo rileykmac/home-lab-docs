@@ -2,7 +2,7 @@ asset_tag,name,type,manufacturer,model,source,date_acquired,cost,status,location
 HL-0001,Core switch,Switch,TP-Link,TL-SG1024DE,Bara,2026-10-04,0,Configured,Living room rack,Core switch,,24-port managed; VLAN capable
 HL-0002,PoE switch,Switch,TP-Link,TL-SG108PE,Bara,2026-10-04,0,Deployed,Behind bookshelf,PoE switch for AP,,4x PoE ports; powers U7 Lite
 HL-0003,Wi-Fi AP,Access Point,Ubiquiti,U7 Lite,Bara,2026-10-06,0,Not yet deployed,On top of bookshelf,Wireless AP,,Adopted into self-hosted UniFi controller
-HL-0004,Offensive laptop,Laptop,Lenovo,ThinkPad (T480s),Personal,,0,Not yet deployed,Lab desk,Kali / offensive box,,Lab VLAN only; never bridged to trusted network
+HL-0004,Offensive laptop,Laptop,Lenovo,ThinkPad (T480s),Personal,,0,Used for config,Lab desk,(running parrot for config) Kali / offensive box,,Implemented as a field ops config device. *Future Lab VLAN only; never bridged to trusted network
 HL-0005,Proxmox host candidate,Laptop,HP,Pavilion x360,Personal,,0,Not yet deployed,Lab desk,Proxmox host (planned),,i5 8th gen; confirm OS install / CMOS battery
 HL-0006,Secondary node,Laptop,Dell,Inspiron 3501,Personal,,0,Not yet deployed,Lab desk,Secondary Proxmox node (planned),,i3-1115G4; 2C/4T
 HL-0007,Thin client,Laptop,Lenovo,IdeaPad 3 Chromebook 15IJL6,Personal,,0,Not yet deployed,Mobile,Thin client / dashboard display,,ChromeOS; not used for hosting

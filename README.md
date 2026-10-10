@@ -1,13 +1,13 @@
 # Homelab
 
-This project is my way of learning tools/devices that I see in the real world at home.
+This is my documented experience building out a home lab that allows me to have a safe place to learn offensive and defensive security as well as a ton of other necessary skills that I am sure I will need to know later down the road.
 
 ## Overview
 
-I want this to be used mainly as a learning platform for me to use things like proxmox hosts, offensive security tools, defensive security tools and whatever else I may decide to add later all separated on different vlans.
+I want this project to be fully human built as far as actual documentation and tool usage with agentic tools taking a backseat so that I can actually learn from this whole process. So far this project has cost me nothing and hopefully I can keep it that way to show others that building your own home lab isn't synonymous with spend a ton of money. 
 
 ## Current status
-Phase 0: planning implementation and doing inventory logging.
+Phase 1: Deploying and configuring devices according to my plan.
 
 ## Repo structure
 
