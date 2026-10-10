@@ -13,7 +13,7 @@ Phase 1: Deploying and configuring devices according to my plan.
 
 - `inventory.csv` — physical asset tracking
 - `network/ip-plan.md` — IP addressing and topology docs
-- `docs/decisions.md` — log of design decisions and why
+- `docs/decisions-and-learning.md` — log of design decisions as well as lessons I learned
 
 ## Roadmap
 
