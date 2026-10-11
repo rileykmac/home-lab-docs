@@ -15,4 +15,6 @@
   - I told claude to stop being so helpful with the responses especially with syntax specific help so I imagine things will progress even slower than before but I will be much more cognizant of what is actually happening 
   ## 2026-10-10
   - I just created a key pair on the field ops laptop and had no way to get it over to my windows machine to upload to github. The solution to this was starting a temporary public file server that would broadcast to all of the devices on the current subnet (my windows machine) and I was able to grab it there to put onto github to give my fieldops laptop access. I did this through python3 -m http.server 8000 which just spins up a file server from that dir on the laptops ip with the specified port in this case being 8000. 
-  - I just cloned the repo onto my parrot os machine through an ssh key and then set my global config to match my name and email on my windows machine. 
+  - I just cloned the repo onto my parrot os machine through an ssh key and then set my global config to match my name and email on my windows machine.
+  - This is my first entry to the repo from my parrot os machine using vim! (this is going to be brutal to learn)
+
